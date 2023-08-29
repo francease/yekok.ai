@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Yekok</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="hoverText">
+        <h2>Greetings Reyet, my baby na maldita</h2>
+        <div class="blockP">
+            <h3 >
+                These are few questions that I waned to ask you for the long time. 
+            </h3>
+            <p>
+                Click <em>"Proceed"</em> if you want to continue, close the tab otherwise.
+            </p>
+
+        </div>
+    </div>
+    <button id="moveButton">Proceed</button>
+    
+</body>
+
+<script>
+    const moveButton = document.getElementById('moveButton');
+
+    moveButton.addEventListener('click', () => {
+        window.location.href = 'home.html'; // Replace with the URL of the new page
+});
+
+</script>
+
+</html>

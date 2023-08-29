@@ -1,0 +1,41 @@
+body {
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    
+    background: linear-gradient(to right, rgb(182, 244, 146), rgb(51, 139, 147));
+    text-align: center;
+}
+
+h2{
+    margin-top: 100px;
+    text-align: center;
+    font-size: 100px;
+}
+.blockP{
+    display: block;
+    text-align: center;
+    font-size: 30px;
+}
+
+button{
+    background-color: white;
+    color: rgb(76, 49, 230);
+    border-color: rgb(76, 49, 230);
+    border-style: solid;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 2px;
+    border-width: 1px;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: background-color 1s, color 1s;
+
+}
+button:hover{
+    background-color: rgb(76, 49, 230);
+    color: white;
+}
